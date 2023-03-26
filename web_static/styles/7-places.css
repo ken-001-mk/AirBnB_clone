@@ -1,24 +1,23 @@
-.places {
-    margin: 0px auto;
-    max-width: 1000px;
+section.places {
     display: flex;
+}
+section.places h1 {
+    text-align: left;
     font-size: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
 }
-.places h1 {
-    width: 100%;
-    padding-left: 22px;
+section.article h2 {
+    font-size: 30px;
+    text-align: center;
 }
-.places article {
+section.places article {
     width: 390px;
     margin: 20px;
     padding: 20px;
-    border: 1px solid red;
+    border-style: solid;
+    border-color: #FF5A5F;
     border-radius: 4px;
-    display: flex;
+    border-width: 1px;
+    display: inline-block;
     justify-content: center;
-}
-.places article {
-    font-size: 30px;
+    align-items: center;
 }
